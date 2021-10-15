@@ -140,5 +140,6 @@ function Twitch() {
     <View>
         <Text>{isEnabled ? "켜짐" : "꺼짐"} </Text>
       </View><StatusBar style="auto" /></>
+      //rf//
   );
 }
