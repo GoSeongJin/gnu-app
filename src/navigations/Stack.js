@@ -3,12 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screens/Home';
 import Setting from '../screens/Setting';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { Linking, StyleSheet, Button, View, SafeAreaView, Text} from 'react-native';
 
 const Stack = createStackNavigator();
 
-
-  
 const StackNavigation = () => {
   return (
     <Stack.Navigator
@@ -37,16 +34,16 @@ const StackNavigation = () => {
         name="Setting"
         component={Setting}
         options={{
-          headerTitle: '알림 설정',
+          headerTitle: '푸시알림 설정',
           headerBackTitleVisible: true,
-          headerBackTitle: '이전',
+          headerBackTitle: 'Prev',
           headerTitleStyle: { fontSize: 24 },
-          headerTintColor: '#000000',    
+          headerTintColor: '#000000',
           headerBackImage: ({ tintColor }) => {
             const style = {
               marginRight: 5,
               marginLeft: Platform.OS === 'ios' ? 11 : 0,
-            }             
+            };
             return (
               <MaterialCommunityIcons
                 name="keyboard-backspace"

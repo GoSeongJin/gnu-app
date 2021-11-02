@@ -1,40 +1,42 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from "react";
-import { StyleSheet,  Switch, Text, View,SafeAreaView,ImageBackground } from 'react-native';
-import { initializeApp } from "firebase/app"
-import { getDatabase, ref, set } from "firebase/database";
 
+import { StyleSheet, Switch, Text, View, SafeAreaView} from 'react-native';
+import OneSignal from 'react-native-onesignal';
 
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBYAwCmt_0r_ezQqsw-wYr07Lkzx0jZSmM",
-  authDomain: "push-da883.firebaseapp.com",
-  databaseURL: "https://push-da883-default-rtdb.firebaseio.com",
-  projectId: "push-da883",
-  storageBucket: "push-da883.appspot.com",
-  messagingSenderId: "815988509488",
-  appId: "1:815988509488:web:83e6b30d55f61bce3a56f5"
-};
-
-
-const app = initializeApp(firebaseConfig);
-
-function On ( isEnabled ) {
+function On_1 ( isEnabled ) {
   if(isEnabled==true){
-    const db = getDatabase();
-    const reference = ref(db, 'users/');
-    set(ref(db, 'users/'), {
-      푸시알림설정 : isEnabled,
-    });
+    OneSignal.sendTag("수강신청", "희망");
   }
   else{
-    const db = getDatabase();
-    const reference = ref(db, 'users/');
-    set(ref(db, 'users/'), {
-     푸시알림설정 : isEnabled,
-    });
+    OneSignal.sendTag("수강신청", "거부");
   }
 }
+
+function On_2 ( isEnabled ) {
+  if(isEnabled==true){
+    OneSignal.sendTag("국가장학금", "희망");
+  }
+  else{
+    OneSignal.sendTag("국가장학금", "거부");
+  }
+}
+
+function On_3 ( isEnabled ) {
+
+  if(isEnabled==true){
+    OneSignal.sendTag("기숙사", "희망");
+  }
+  else{
+    OneSignal.sendTag("기숙사", "거부");
+  }
+}
+function Separator() {
+  return (
+    <View style={styles.separator} />
+  );
+}
+
 function Separator() {
   return (
     <View style={styles.separator} />
@@ -51,28 +53,34 @@ export default function App() {
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
-              수강신청 날짜 푸시알림
+
+              수강신청 공지사항 푸시알림
             </Text>
           </View>
-          <Twitch></Twitch>
+          <Twitch_1></Twitch_1>
+
         </SafeAreaView>
         <Separator/>
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
-              장학금 정보 푸시알림
+
+              장학금 공지사항 푸시알림
             </Text>
           </View>
-        <Twitch></Twitch>
+        <Twitch_2></Twitch_2>
+
         </SafeAreaView>
         <Separator/>
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
-              기숙사 정보 푸시알림
+
+              기숙사 공지사항 푸시알림
             </Text>
           </View>
-          <Twitch></Twitch>
+          <Twitch_3></Twitch_3>
+
           
         </SafeAreaView>
         <Separator/></><View>
@@ -123,7 +131,9 @@ const styles1 = StyleSheet.create({
   },
 }
 );
-function Twitch() {
+
+function Twitch_1() {
+
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
@@ -134,7 +144,9 @@ function Twitch() {
         thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
         ios_backgroundColor="#3e3e3e"
         onValueChange={toggleSwitch}
-        onValue={On(isEnabled)}
+
+        onValue={On_1(isEnabled)}
+    
         value={isEnabled} />
     </View>
     <View>
@@ -143,3 +155,47 @@ function Twitch() {
       //rf//
   );
 }
+
+
+function Twitch_2() {
+  const [isEnabled, setIsEnabled] = useState(false);
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_2(isEnabled)}
+        value={isEnabled} />
+    </View>
+    <View>
+        <Text>{isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+      //rf//
+  );
+}
+
+function Twitch_3() {
+  const [isEnabled, setIsEnabled] = useState(false);
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_3(isEnabled)}
+        value={isEnabled} />
+    </View>
+    <View>
+        <Text>{isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+      //rf//
+  );
+}
+
