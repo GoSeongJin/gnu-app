@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from "react";
+
 import { StyleSheet, Switch, Text, View, SafeAreaView} from 'react-native';
 import OneSignal from 'react-native-onesignal';
 
@@ -22,12 +23,18 @@ function On_2 ( isEnabled ) {
 }
 
 function On_3 ( isEnabled ) {
+
   if(isEnabled==true){
     OneSignal.sendTag("기숙사", "희망");
   }
   else{
     OneSignal.sendTag("기숙사", "거부");
   }
+}
+function Separator() {
+  return (
+    <View style={styles.separator} />
+  );
 }
 
 function Separator() {
@@ -46,28 +53,34 @@ export default function App() {
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
+
               수강신청 공지사항 푸시알림
             </Text>
           </View>
           <Twitch_1></Twitch_1>
+
         </SafeAreaView>
         <Separator/>
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
+
               장학금 공지사항 푸시알림
             </Text>
           </View>
         <Twitch_2></Twitch_2>
+
         </SafeAreaView>
         <Separator/>
         <SafeAreaView style={styles.container}>
           <View>
             <Text style={styles.title}>
+
               기숙사 공지사항 푸시알림
             </Text>
           </View>
           <Twitch_3></Twitch_3>
+
           
         </SafeAreaView>
         <Separator/></><View>
@@ -118,7 +131,9 @@ const styles1 = StyleSheet.create({
   },
 }
 );
+
 function Twitch_1() {
+
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
@@ -129,7 +144,9 @@ function Twitch_1() {
         thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
         ios_backgroundColor="#3e3e3e"
         onValueChange={toggleSwitch}
+
         onValue={On_1(isEnabled)}
+    
         value={isEnabled} />
     </View>
     <View>
@@ -138,6 +155,7 @@ function Twitch_1() {
       //rf//
   );
 }
+
 
 function Twitch_2() {
   const [isEnabled, setIsEnabled] = useState(false);
@@ -180,3 +198,4 @@ function Twitch_3() {
       //rf//
   );
 }
+
