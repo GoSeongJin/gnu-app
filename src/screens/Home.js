@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 
 function WebLink(title) {
   const db = getDatabase();
-  const reference = ref(db, 'URL/' + title);
+  const reference = ref(db, '공지사항/' + title);
   onValue(reference, (snapshot) => {
     const url = snapshot.val();
     Linking.openURL( url );
@@ -40,7 +40,7 @@ const Home = ({ navigation }) => {
       </Text>
       <Button
         title="Press me"
-        onPress={() => WebLink('학과공지사항')}
+        onPress={() => WebLink('수강신청')}
       />
     </View>
     <Separator />
@@ -60,7 +60,7 @@ const Home = ({ navigation }) => {
       </Text>
       <Button
         title="Press me"
-        onPress={() => Linking.openURL('https://newgh.gnu.ac.kr/main/na/ntt/selectNttList.do?mi=1126&bbsId=1028')}
+        onPress={() =>WebLink('기숙사')}
       />
     </View>
     <Separator />
