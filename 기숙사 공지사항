@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:56:31.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7S_7p_Ssh1rt6rOb06F4" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T11:34:07.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jBEaDqohNxLvQ2BaotNF" version="15.7.0" type="github">
   <diagram id="CT1-fYUGajA1n0wqlAPS" name="Page-1">
-    <mxGraphModel dx="788" dy="895" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1385" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="99.5" y="51" width="712" height="627" as="geometry" />
         </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-3" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-3" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="419" width="358" height="203" as="geometry" />
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-1" value="공지사항 탐색기" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
             <mxPoint x="224" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mym92ZqjSYGdS5py_EQk-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="mym92ZqjSYGdS5py_EQk-15">
+        <mxCell id="mym92ZqjSYGdS5py_EQk-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="mym92ZqjSYGdS5py_EQk-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="232" y="251" as="sourcePoint" />
             <mxPoint x="344" y="251" as="targetPoint" />
@@ -103,7 +103,7 @@
             <mxPoint x="224" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mym92ZqjSYGdS5py_EQk-21" value="키워드, 키워드 공지사항 주소-기숙사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="mym92ZqjSYGdS5py_EQk-21" value="키워드, 키워드 공지사항 주소-기숙사 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="267" y="337" width="191" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -155,22 +155,13 @@
         <mxCell id="mym92ZqjSYGdS5py_EQk-34" value="[키워드 공지사항 주소_기숙사&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="413" y="443" width="85" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mym92ZqjSYGdS5py_EQk-37" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="87" y="239.9999999999999" as="sourcePoint" />
-            <mxPoint x="220" y="239.9999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mym92ZqjSYGdS5py_EQk-38" value="실행" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="98" y="239" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-2" value="키워드 공지사항 주소_기숙사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-2" value="키워드 공지사항 주소_기숙사&lt;br&gt;전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="226" y="298" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-7" value="키워드, 키워드 공지사항 주소 _기숙사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-7" value="키워드, 키워드 공지사항 주소 _기숙사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="523" y="539" width="102" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="443" as="sourcePoint" />
             <mxPoint x="515" y="516" as="targetPoint" />
@@ -180,7 +171,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-10" value="키워드 공지사항 업로드 감지 데이터&amp;nbsp; 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-10" value="키워드 공지사항 업로드 감지 데이터&amp;nbsp; 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="531" y="462" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
