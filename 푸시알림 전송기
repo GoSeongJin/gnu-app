@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:14:37.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Jv-V16Q3GXuE8HEuSLq-" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:15:30.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="557FGqrP2umNyX_hqhqh" version="15.7.0" type="github">
   <diagram id="aPZ4pZ5V-K0dsaY3On_2" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="68" y="238" width="748" height="463" as="geometry" />
+        </mxCell>
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-32" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WfmqlB9CF3Q-ihgg1iBk-31">
+          <mxGeometry x="-13" y="-160" width="761" height="623" as="geometry" />
+        </mxCell>
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-1" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WfmqlB9CF3Q-ihgg1iBk-31">
+          <mxGeometry width="602.5" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-6" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WfmqlB9CF3Q-ihgg1iBk-31">
+          <mxGeometry x="0.5" y="67" width="589.5" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="pS9HE_yOTmARkyE4b8NL-1" value="푸시알림 서버" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="373.5" y="179" width="111" height="40" as="geometry" />
         </mxCell>
@@ -142,10 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lccAUnc7I7eWQbhkNxpU-4" value="시간(10뷴)만큼 &lt;br&gt;일시 정지" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="741" y="590" width="86" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-4" value="실행" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="666" y="673" width="86" height="30" as="geometry" />
+          <mxGeometry x="733" y="590" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-5" value="각각의 &lt;br&gt;키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="40" y="271" width="145" height="30" as="geometry" />
@@ -191,15 +200,6 @@
             <mxPoint x="428" y="514" as="sourcePoint" />
             <mxPoint x="561" y="514" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="76" y="238" width="602.5" height="341" as="geometry" />
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-1" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WfmqlB9CF3Q-ihgg1iBk-31">
-          <mxGeometry width="602.5" height="341" as="geometry" />
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-6" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="WfmqlB9CF3Q-ihgg1iBk-31">
-          <mxGeometry x="0.5" y="67" width="589.5" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
