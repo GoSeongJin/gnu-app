@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:18:53.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MleEc6IrVzfj-4Agodn7" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:39:34.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yAx_XQI-WEcHjh76hvie" version="15.7.0" type="github">
   <diagram id="aPZ4pZ5V-K0dsaY3On_2" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-5" value="각각의 &lt;br&gt;키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="33" y="290" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-7" value="키워드 &lt;br&gt;공지사항 &lt;br&gt;업로드&amp;nbsp; &amp;gt; 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-7" value="키워드 &lt;br&gt;공지사항 &lt;br&gt;업로드&amp;nbsp; = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="55" y="368" width="111.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pS9HE_yOTmARkyE4b8NL-16" target="pS9HE_yOTmARkyE4b8NL-16">
