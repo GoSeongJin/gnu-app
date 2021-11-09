@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T06:35:35.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cHQgc1MbYeUEh_xWwt06" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T06:48:35.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qsE9JwSbh2d7UyBrU-V3" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="2TOthowfNqCpHmrS3gKt-58" value="&lt;font style=&quot;font-size: 9px&quot;&gt;공지사항 주소 요청&lt;br&gt;(키워드)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="551" y="402" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-59" value="키워드 공지사항 주소 _데이터베이스 서버" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-59" value="키워드 공지사항 주소 _데이터베이스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="563" y="372" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -167,7 +167,7 @@
         <mxCell id="2TOthowfNqCpHmrS3gKt-69" value="각각의 &lt;br&gt;키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="155" y="283" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-70" value="[키워드 공지사항 주소_학과&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스 서버]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-70" value="[키워드 공지사항 주소_학과&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="455" y="499" width="85" height="47" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-74" value="각각의 키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
