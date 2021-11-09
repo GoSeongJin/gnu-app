@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:12:40.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="6ZgPNAgFSGCG5CBnkfw9" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:31:21.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8_RsFUmamZd_cDRsvad0" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="465" dy="525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2TOthowfNqCpHmrS3gKt-74" value="각각의 키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="427" y="453" width="145" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-50" value="&amp;nbsp;공지사항 주소 요청&lt;br&gt;(키워드)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="261" y="269" width="145" height="28" as="geometry" />
         </mxCell>
@@ -17,7 +20,7 @@
           <mxGeometry x="454" y="425" width="354" height="148" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-66" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="454" y="458" width="349" height="111" as="geometry" />
+          <mxGeometry x="454" y="478.5" width="349" height="111" as="geometry" />
         </mxCell>
         <mxCell id="MJfe2UmRW1nRbuKdkq0Y-35" value="타이머" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="64" y="183" width="111" height="40" as="geometry" />
@@ -103,10 +106,10 @@
             <mxPoint x="675" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="208" y="183" width="50" height="50" as="geometry">
-            <mxPoint x="542" y="463" as="sourcePoint" />
-            <mxPoint x="675" y="463" as="targetPoint" />
+        <mxCell id="2TOthowfNqCpHmrS3gKt-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.873;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="186" y="178" width="50" height="50" as="geometry">
+            <mxPoint x="549.5849999999999" y="454.31999999999994" as="sourcePoint" />
+            <mxPoint x="675.25" y="455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -128,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="343" width="17" height="121" as="geometry" />
+          <mxGeometry x="535" y="343" width="17" height="115" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-58" value="&lt;font style=&quot;font-size: 9px&quot;&gt;공지사항 주소 요청&lt;br&gt;(키워드)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="551" y="372" width="121" height="30" as="geometry" />
@@ -137,7 +140,7 @@
           <mxGeometry x="563" y="399" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="675" y="462" width="17" height="76" as="geometry" />
+          <mxGeometry x="675" y="455" width="17" height="86" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-61" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="2TOthowfNqCpHmrS3gKt-60">
           <mxGeometry x="208" y="251" width="50" height="50" as="geometry">
@@ -146,20 +149,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-62" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
-          <mxGeometry x="208" y="183" width="50" height="50" as="geometry">
-            <mxPoint x="695" y="463" as="sourcePoint" />
-            <mxPoint x="695" y="536" as="targetPoint" />
+          <mxGeometry x="208" y="182" width="50" height="50" as="geometry">
+            <mxPoint x="695" y="462" as="sourcePoint" />
+            <mxPoint x="695" y="535" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="709" y="463" />
-              <mxPoint x="709" y="536" />
+              <mxPoint x="709" y="462" />
+              <mxPoint x="709" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-63" value="키워드 공지사항 주소_학과 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="713" y="490" width="86" height="30" as="geometry" />
+        <mxCell id="2TOthowfNqCpHmrS3gKt-63" value="키워드 참조하여 키워드 공지사항 주소_학과 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="709" y="490" width="86" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-64" value="키워드 공지사항 주소_학과(키워드)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="545" y="468" width="130" height="30" as="geometry" />
+        <mxCell id="2TOthowfNqCpHmrS3gKt-64" value="키워드 공지사항 주소_학과, 키워드" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="545" y="454" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-65" value="키워드 공지사항 주소_학과" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="265" y="313" width="145" height="30" as="geometry" />
@@ -168,10 +171,7 @@
           <mxGeometry x="155" y="283" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-70" value="[키워드 공지사항 주소_학과&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="455" y="499" width="85" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-74" value="각각의 키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="486" y="428" width="145" height="30" as="geometry" />
+          <mxGeometry x="454" y="520" width="85" height="47" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="2TOthowfNqCpHmrS3gKt-56">
           <mxGeometry x="68" y="245" width="50" height="50" as="geometry">
