@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:31:21.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8_RsFUmamZd_cDRsvad0" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:31:26.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QDdEtljQtlRae4vl-hcH" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
     <mxGraphModel dx="465" dy="525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
           <mxGeometry x="155" y="283" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-70" value="[키워드 공지사항 주소_학과&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="454" y="520" width="85" height="47" as="geometry" />
+          <mxGeometry x="454" y="514" width="85" height="47" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="2TOthowfNqCpHmrS3gKt-56">
           <mxGeometry x="68" y="245" width="50" height="50" as="geometry">
