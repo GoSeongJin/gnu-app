@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T07:16:59.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KN0Yx0buRHiFirve_9iJ" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T07:18:06.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="18FfwiJLINSlX48iLJ_H" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
             <mxPoint x="274" y="312" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry x="208" y="199" width="50" height="50" as="geometry">
             <mxPoint x="686" y="402" as="sourcePoint" />
             <mxPoint x="553" y="402" as="targetPoint" />
@@ -131,10 +131,10 @@
           <mxGeometry x="535" y="343" width="17" height="121" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-58" value="&lt;font style=&quot;font-size: 9px&quot;&gt;공지사항 주소 요청&lt;br&gt;(키워드)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="551" y="402" width="121" height="30" as="geometry" />
+          <mxGeometry x="551" y="372" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-59" value="키워드 공지사항 주소 _데이터베이스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="563" y="372" width="102" height="30" as="geometry" />
+          <mxGeometry x="563" y="399" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="462" width="17" height="76" as="geometry" />
