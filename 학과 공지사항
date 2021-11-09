@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T06:48:35.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qsE9JwSbh2d7UyBrU-V3" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T07:16:54.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VI9UTZtgdCzDCV-iouiq" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
             <mxPoint x="383" y="266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry x="208" y="193" width="50" height="50" as="geometry">
             <mxPoint x="407" y="312" as="sourcePoint" />
             <mxPoint x="274" y="312" as="targetPoint" />
@@ -162,7 +162,7 @@
           <mxGeometry x="545" y="468" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-65" value="키워드 공지사항 주소_학과" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="265" y="309" width="145" height="30" as="geometry" />
+          <mxGeometry x="265" y="313" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-69" value="각각의 &lt;br&gt;키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="155" y="283" width="145" height="30" as="geometry" />
