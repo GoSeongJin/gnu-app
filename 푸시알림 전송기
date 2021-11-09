@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T12:45:54.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qPLfFvsLrPe--EbD9_Ky" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T12:49:26.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RCsf8mPzgVgYXnW0Lpgr" version="15.7.0" type="github">
   <diagram id="aPZ4pZ5V-K0dsaY3On_2" name="Page-1">
-    <mxGraphModel dx="2249" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-32" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="53" y="83" width="761" height="567" as="geometry" />
+        </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-31" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="68" y="255" width="748" height="463" as="geometry" />
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-32" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="WfmqlB9CF3Q-ihgg1iBk-31" vertex="1">
-          <mxGeometry x="-71" y="-226" width="813" height="623" as="geometry" />
         </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-1" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="WfmqlB9CF3Q-ihgg1iBk-31" vertex="1">
           <mxGeometry width="602.5" height="328" as="geometry" />
@@ -82,8 +82,8 @@
             <mxPoint x="428.93526170798896" y="464" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-16" value="공지사항 업로드 메시지 데이터, 공지사항 주소데이터 수신" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="449" y="527" width="96" height="30" as="geometry" />
+        <mxCell id="pS9HE_yOTmARkyE4b8NL-16" value="푸시알림 메시지 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="437" y="514" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pS9HE_yOTmARkyE4b8NL-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280.5" y="337" width="17" height="130" as="geometry" />
@@ -150,8 +150,8 @@
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-5" value="각각의 &lt;br&gt;키워드 마다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="33" y="290" width="145" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-7" value="키워드 &lt;br&gt;공지사항 &lt;br&gt;업로드&amp;nbsp; &amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="55" y="368" width="111.5" height="30" as="geometry" />
+        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-7" value="키워드 공지사항 &lt;br&gt;업로드 데이터 &amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="366" width="116.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pS9HE_yOTmARkyE4b8NL-16" target="pS9HE_yOTmARkyE4b8NL-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
