@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:29:13.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="hAUdhm1hqRVJJ5rvxOlU" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:38:02.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rDJj66CmDAgbeNPQpnhI" version="15.7.0" type="github">
   <diagram id="CT1-fYUGajA1n0wqlAPS" name="Page-1">
-    <mxGraphModel dx="910" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1558" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,7 +149,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mym92ZqjSYGdS5py_EQk-33" value="키워드 참조하여 키워드 공지사항 주소_기숙사 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="mym92ZqjSYGdS5py_EQk-33" value="키워드와 키워드 공지사항 주소_기숙사 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="674" y="564" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-34" value="[키워드 공지사항 주소_기숙사&amp;nbsp; ≠ 키워드 공지사항 주소_데이터베이스]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
