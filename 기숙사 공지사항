@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T11:34:07.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jBEaDqohNxLvQ2BaotNF" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T12:18:46.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HrSMfIlL1ienV5aP1lle" version="15.7.0" type="github">
   <diagram id="CT1-fYUGajA1n0wqlAPS" name="Page-1">
-    <mxGraphModel dx="1385" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,12 @@
         </mxCell>
         <mxCell id="ma4fRpmGRJIdVNhU4wpU-10" value="키워드 공지사항 업로드 감지 데이터&amp;nbsp; 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="531" y="462" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="59Ew6cCbI71eNSLwqcF0-8" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="392" as="sourcePoint" />
+            <mxPoint x="440" y="392" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
