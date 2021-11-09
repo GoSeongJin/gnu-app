@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T08:38:02.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rDJj66CmDAgbeNPQpnhI" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T08:56:31.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7S_7p_Ssh1rt6rOb06F4" version="15.7.0" type="github">
   <diagram id="CT1-fYUGajA1n0wqlAPS" name="Page-1">
-    <mxGraphModel dx="1558" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="895" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ma4fRpmGRJIdVNhU4wpU-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="79" y="76" width="712" height="575" as="geometry" />
+          <mxGeometry x="99.5" y="51" width="712" height="627" as="geometry" />
         </mxCell>
         <mxCell id="ma4fRpmGRJIdVNhU4wpU-3" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="419" width="358" height="203" as="geometry" />
@@ -87,7 +87,7 @@
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="mym92ZqjSYGdS5py_EQk-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="364" y="622" as="sourcePoint" />
+            <mxPoint x="364" y="640" as="sourcePoint" />
             <mxPoint x="364" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -99,7 +99,7 @@
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="mym92ZqjSYGdS5py_EQk-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="224" y="622" as="sourcePoint" />
+            <mxPoint x="224" y="640" as="sourcePoint" />
             <mxPoint x="224" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -120,7 +120,7 @@
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="mym92ZqjSYGdS5py_EQk-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="504" y="622" as="sourcePoint" />
+            <mxPoint x="504" y="640" as="sourcePoint" />
             <mxPoint x="504" y="220.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -135,7 +135,7 @@
         </mxCell>
         <mxCell id="mym92ZqjSYGdS5py_EQk-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="mym92ZqjSYGdS5py_EQk-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="644.0000000000002" y="622" as="sourcePoint" />
+            <mxPoint x="644.0000000000002" y="640" as="sourcePoint" />
             <mxPoint x="644.472361809045" y="361.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -180,7 +180,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ma4fRpmGRJIdVNhU4wpU-10" value="키워드 공지사항 업로드 감지 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ma4fRpmGRJIdVNhU4wpU-10" value="키워드 공지사항 업로드 감지 데이터&amp;nbsp; 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="531" y="462" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
