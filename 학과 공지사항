@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T13:10:01.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qJm5yJUcqe4Xi990QV9x" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T08:13:56.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="sIZBiedTOe7uc4pWSHi2" version="15.7.0" type="github">
   <diagram id="w5JJpwKvcG8Qmcq6C42V" name="Page-1">
-    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="2TOthowfNqCpHmrS3gKt-50" value="&amp;nbsp;공지사항 주소 요청&lt;br&gt;(키워드)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="261" y="269" width="145" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="MJfe2UmRW1nRbuKdkq0Y-35" value="타이머" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MJfe2UmRW1nRbuKdkq0Y-35" value="타이머" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=rgba(0, 0, 0, 1);align=center;strokeColor=rgba(0, 0, 0, 1);fillColor=rgba(255, 255, 255, 1);" parent="1" vertex="1">
           <mxGeometry x="64" y="183" width="111" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MJfe2UmRW1nRbuKdkq0Y-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="MJfe2UmRW1nRbuKdkq0Y-35" edge="1">
@@ -37,13 +37,13 @@
         <mxCell id="2TOthowfNqCpHmrS3gKt-34" value="공지사항 탐색기" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="208" y="183" width="111" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-35" value="데이터베이스 서버" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-35" value="데이터베이스 서버" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=rgba(0, 0, 0, 1);align=center;strokeColor=rgba(0, 0, 0, 1);fillColor=rgba(255, 255, 255, 1);" parent="1" vertex="1">
           <mxGeometry x="628" y="183" width="111" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-36" value="공지사항 업로드&lt;br&gt;감지기" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="488" y="183" width="111" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-37" value="학과 홈페이지" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-37" value="학과 홈페이지" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=rgba(0, 0, 0, 1);align=center;strokeColor=rgba(0, 0, 0, 1);fillColor=rgba(255, 255, 255, 1);" parent="1" vertex="1">
           <mxGeometry x="348" y="183" width="111" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2TOthowfNqCpHmrS3gKt-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;" parent="1" source="2TOthowfNqCpHmrS3gKt-54" edge="1">
@@ -185,7 +185,7 @@
             <mxPoint x="264" y="443" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TOthowfNqCpHmrS3gKt-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" parent="1" edge="1" source="2TOthowfNqCpHmrS3gKt-56">
+        <mxCell id="2TOthowfNqCpHmrS3gKt-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" parent="1" source="2TOthowfNqCpHmrS3gKt-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="552" y="488" as="sourcePoint" />
             <mxPoint x="552" y="561" as="targetPoint" />
