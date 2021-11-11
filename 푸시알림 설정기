@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T03:43:14.674Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="kktcBtDyxhM2duvwZqUp" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T06:27:37.028Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QguKqQS4qVrkZgZk1Mze" version="15.7.3" type="github">
   <diagram id="UGF8Ka3dnVJwLSqxpdJI" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,8 +96,8 @@
             <mxPoint x="680" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYYgjetDp7J8uDyxIg_U-24" value="기기식별데이터와 푸시알림 수신여부데이터 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="270" width="140" height="50" as="geometry" />
+        <mxCell id="xYYgjetDp7J8uDyxIg_U-24" value="데이터(기기식별,키워드,푸시알림)전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xYYgjetDp7J8uDyxIg_U-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="320" width="20" height="220" as="geometry" />
@@ -119,8 +119,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYYgjetDp7J8uDyxIg_U-31" value="기기식별,키워드,푸시알림 데이터를 저장하고 검사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="320" width="80" height="80" as="geometry" />
+        <mxCell id="xYYgjetDp7J8uDyxIg_U-31" value="데이터(기기식별,키워드,푸시알림) 저장 및 확인" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xYYgjetDp7J8uDyxIg_U-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -132,8 +132,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYYgjetDp7J8uDyxIg_U-33" value="사용자의 기기를 키워드 별로 수신자 그룹에 추가 또는 제거" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="80" height="80" as="geometry" />
+        <mxCell id="xYYgjetDp7J8uDyxIg_U-33" value="사용자의 기기를 키워드 별로 수신자 그룹에 편성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
