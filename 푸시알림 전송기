@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:52:36.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="9MdJVO7yJiTAYlUbwRJm" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T12:13:57.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OtjZaDdreyWJfxkvmkTS" version="15.7.3" type="github">
   <diagram id="aPZ4pZ5V-K0dsaY3On_2" name="Page-1">
-    <mxGraphModel dx="1038" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="93.5" y="179" width="111" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pS9HE_yOTmARkyE4b8NL-4" value="경상대 학생&lt;br&gt;(휴대폰)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=rgba(0, 0, 0, 1);align=center;strokeColor=rgba(0, 0, 0, 1);fillColor=rgba(255, 255, 255, 1);" parent="1" vertex="1">
-          <mxGeometry x="688" y="156" width="40" height="40" as="geometry" />
+          <mxGeometry x="688" y="166" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pS9HE_yOTmARkyE4b8NL-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;" parent="1" source="pS9HE_yOTmARkyE4b8NL-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -79,8 +79,8 @@
             <mxPoint x="148.5" y="221.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-21" value="&amp;nbsp;공지사항 푸시알림 정보(키워드)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="152" y="308" width="111.5" height="30" as="geometry" />
+        <mxCell id="pS9HE_yOTmARkyE4b8NL-21" value="&amp;nbsp;푸시알림 메시지 데이터로 변환&amp;nbsp;(키워드)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="154" y="308" width="111.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pS9HE_yOTmARkyE4b8NL-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -98,28 +98,6 @@
         <mxCell id="pS9HE_yOTmARkyE4b8NL-26" value="&lt;p class=&quot;0&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;공지사항 감지 데이터를 공지사항 감지 메시지 데이터로 변환&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;hwpEditorBoardContent&quot; class=&quot;hwp_editor_board_content&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="315" y="412" width="112" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-28" value="타이머" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=rgba(0, 0, 0, 1);align=center;strokeColor=rgba(0, 0, 0, 1);fillColor=rgba(255, 255, 255, 1);" parent="1" vertex="1">
-          <mxGeometry x="827.5" y="167" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;" parent="1" source="pS9HE_yOTmARkyE4b8NL-31" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="848" y="630" as="sourcePoint" />
-            <mxPoint x="848" y="225" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lccAUnc7I7eWQbhkNxpU-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pS9HE_yOTmARkyE4b8NL-31" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="865" y="570" as="sourcePoint" />
-            <mxPoint x="859" y="621" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="878" y="598" />
-              <mxPoint x="878" y="621" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lccAUnc7I7eWQbhkNxpU-4" value="시간(10분)만큼 &lt;br&gt;일시 정지" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="874" y="598" width="86" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pS9HE_yOTmARkyE4b8NL-16" target="pS9HE_yOTmARkyE4b8NL-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -127,15 +105,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="289" y="622" as="sourcePoint" />
             <mxPoint x="289" y="521" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="839" y="598" width="17" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="pS9HE_yOTmARkyE4b8NL-31" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="848" y="630" as="sourcePoint" />
-            <mxPoint x="847.5" y="227" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -147,14 +116,11 @@
             <mxPoint x="569.935261707989" y="472" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-32" value="시간 데이터 전송&lt;br&gt;(10분)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="170" y="593" width="86" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pS9HE_yOTmARkyE4b8NL-27" value="&lt;p class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;푸시알림 메시지 데이터&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(수신자 그룹,&amp;nbsp; 업로드 메시지)&lt;/font&gt;&lt;/p&gt;&lt;div id=&quot;hwpEditorBoardContent&quot; class=&quot;hwp_editor_board_content&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="263.5" y="467" width="165" height="50" as="geometry" />
+        <mxCell id="pS9HE_yOTmARkyE4b8NL-27" value="&lt;p class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;푸시알림 서버 등록&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(수신자 그룹,&amp;nbsp; 업로드 메시지)&lt;/font&gt;&lt;/p&gt;&lt;div id=&quot;hwpEditorBoardContent&quot; class=&quot;hwp_editor_board_content&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="289.5" y="458" width="137.5" height="64" as="geometry" />
         </mxCell>
         <mxCell id="CM7FZx3g8eJQfssiAHg4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="699.5" y="233" width="17" height="383" as="geometry" />
+          <mxGeometry x="699.5" y="242" width="17" height="383" as="geometry" />
         </mxCell>
         <mxCell id="CM7FZx3g8eJQfssiAHg4-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;" parent="1" target="CM7FZx3g8eJQfssiAHg4-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -162,22 +128,13 @@
             <mxPoint x="710" y="228" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CM7FZx3g8eJQfssiAHg4-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="839" y="231" width="17" height="383" as="geometry" />
-        </mxCell>
         <mxCell id="WfmqlB9CF3Q-ihgg1iBk-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="582" y="522" as="sourcePoint" />
             <mxPoint x="694" y="522" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WfmqlB9CF3Q-ihgg1iBk-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="149" y="590" as="sourcePoint" />
-            <mxPoint x="834" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f6MLb7W4aLWhk8XiKY-0-1" value="푸시알림 서버등록기" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="f6MLb7W4aLWhk8XiKY-0-1" value="푸시알림 서버&lt;br&gt;등록기" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="377" y="182" width="111" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f6MLb7W4aLWhk8XiKY-0-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="f6MLb7W4aLWhk8XiKY-0-4" target="f6MLb7W4aLWhk8XiKY-0-1" edge="1">
@@ -187,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f6MLb7W4aLWhk8XiKY-0-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="425" y="472" width="15" height="24" as="geometry" />
+          <mxGeometry x="425" y="472" width="15" height="27" as="geometry" />
         </mxCell>
         <mxCell id="f6MLb7W4aLWhk8XiKY-0-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="f6MLb7W4aLWhk8XiKY-0-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -201,7 +158,7 @@
             <mxPoint x="641" y="448" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f6MLb7W4aLWhk8XiKY-0-9" value="데이터 전송 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="f6MLb7W4aLWhk8XiKY-0-9" value="푸시알림 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="444" y="472" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
