@@ -1,29 +1,5 @@
-
-import React, { useEffect } from 'react';
-import { Linking, StyleSheet, Button, View, SafeAreaView, Text} from 'react-native';
-import { initializeApp } from "firebase/app"
-import { getDatabase, ref, set, onValue } from "firebase/database";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBYAwCmt_0r_ezQqsw-wYr07Lkzx0jZSmM",
-  authDomain: "push-da883.firebaseapp.com",
-  databaseURL: "https://push-da883-default-rtdb.firebaseio.com",
-  projectId: "push-da883",
-  storageBucket: "push-da883.appspot.com",
-  messagingSenderId: "815988509488",
-  appId: "1:815988509488:web:83e6b30d55f61bce3a56f5"
-};
-
-const app = initializeApp(firebaseConfig);
-
-function WebLink(title) {
-  const db = getDatabase();
-  const reference = ref(db, '공지사항/' + title);
-  onValue(reference, (snapshot) => {
-    const url = snapshot.val();
-    Linking.openURL( url );
-  });
-}
+import React from 'react';
+import { StyleSheet, Button, View, SafeAreaView} from 'react-native';
 
 function Separator() {
   return (
@@ -31,66 +7,39 @@ function Separator() {
   );
 }
 
-const Home = ({ navigation }) => {
+export const Home = ({ navigation }) => {
   return (
-	<SafeAreaView style={styles.container}>
-    <View>
-      <Text style={styles.title}>
-        학과공지사항
-      </Text>
-      <Button
-        title="Press me"
-        onPress={() => WebLink('수강신청')}
-      />
-    </View>
-    <Separator />
-    <View>
-      <Text style={styles.title}>
-        국가장학금
-      </Text>
-      <Button
-        title="Press me"
-        onPress={() => WebLink('국가장학금')}
-      />
-    </View>
-    <Separator />
-    <View>
-      <Text style={styles.title}>
-        기숙사
-      </Text>
-      <Button
-        title="Press me"
-        onPress={() =>WebLink('기숙사')}
-      />
-    </View>
-    <Separator />
-    <View>
-      <Text style={styles.title}>
-        원하시는 푸시알림 설정은 밑에서 하세요
-      </Text>
-      <View style={styles.fixToText}>
+    <SafeAreaView style={styles.container}>
+      <View>
         <Button
-          title="설정"
-          onPress={() => navigation.navigate('Setting')}
-        />
+            title="수강신청 공지사항 리스트"
+            onPress={() => navigation.navigate('수강신청공지사항')}
+          />
       </View>
-    </View>
-  </SafeAreaView>
-  );
-};
+      <Separator />
+      <View>
+        <Button
+            title="장학금 공지사항 리스트"
+            onPress={() => navigation.navigate('장학금공지사항')}
+          />
+      </View>
+      <Separator />
+      <View>
+        <Button
+            title="기숙사 공지사항 리스트"
+            onPress={() => navigation.navigate('기숙사공지사항')}
+          />
+      </View>
+      <Separator />
+    </SafeAreaView>
+    );
+  };
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     marginHorizontal: 16,
-  },
-  title: {
-    textAlign: 'center',
-    marginVertical: 8,
-  },
-  fixToText: {
-    flexDirection: 'row',
-    justifyContent: 'center',
   },
   separator: {
     marginVertical: 8,
@@ -98,5 +47,3 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
 });
-
-export default Home;
