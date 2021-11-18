@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GANG",
-    "slug": "GANG",
+    "name": "gnu-app",
+    "slug": "gnu-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,8 +23,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.go.gang"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
