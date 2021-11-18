@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Home } from '../screens/TabScreens_Home';
-import { Settings } from '../screens/TabScreens_Setting';
+import { Home } from '../screens/Home';
+import { Settings } from '../screens/Setting';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const TabIcon = ({ name, size, color }) => {
@@ -27,7 +27,7 @@ const TabNavigation = () => {
       />
       <Tab.Screen
         name="푸시알림 수신"
-        component={Settings}
+        component={ Settings }
         options={{
           tabBarLabel: '알림 수신 설정',
           tabBarIcon: props =>
