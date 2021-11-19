@@ -47,7 +47,7 @@ class Crawler :
       driver.back() #뒤로가기
       time.sleep(2)
       print("업데이트가 되었습니다")
-    return self.Posting_Address 
+    return 0
 cal1 = Crawler()
 cal1.crawler("학과공지사항", department_url, "수강신청")
 cal1.crawler("학과공지사항", department_url, "장학금")
