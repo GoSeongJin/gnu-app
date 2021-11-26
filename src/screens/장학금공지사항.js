@@ -17,7 +17,7 @@ export default function App() {
   
   useEffect(()=>{
     const db = getDatabase();
-    const reference = ref(db, '학과공지사항/장학금/');
+    const reference = ref(db, '학과공지사항/국가장학금/');
     onValue(reference, (snapshot) => {
       const tmp = []; 
       snapshot.forEach((child)=>{
