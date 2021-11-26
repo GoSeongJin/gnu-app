@@ -5,6 +5,7 @@ import { getDatabase, ref, onValue } from 'firebase/database';
 
 export default function App() {
   const [data, setData] = useState('');
+
   const renderItem = ({item}) => {
     return(
       <View style={{padding:15, borderBottomColor:'#aaa', borderBottomWidth: 3}}>
@@ -15,7 +16,7 @@ export default function App() {
   
   useEffect(()=>{
     const db = getDatabase();
-    const reference = ref(db, '기숙사공지사항/입실/');
+    const reference = ref(db, '기숙사공지사항/학생생활관 관생/');
     onValue(reference, (snapshot) => {
       const tmp = []; 
       snapshot.forEach((child)=>{
@@ -36,7 +37,7 @@ export default function App() {
       <SafeAreaView style={{flex:1, }}> 
         <View style={{backgroundColor:'#fff', flex:1, }}>
           <View>
-             <FlatList data={data} renderItem={renderItem} keyExtractor={item => item.제목}  style={{ padding:15, }} /> 
+             <FlatList data={data} renderItem={renderItem} keyExtractor={item => item.제목}  style={{ padding:15, }}/> 
           </View>
         </View>
       </SafeAreaView>
