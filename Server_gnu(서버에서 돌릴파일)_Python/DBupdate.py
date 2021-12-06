@@ -16,9 +16,9 @@ class Crawler :
     self.Posting_Address = 0
     self.number = 0
     self.Title = 0
-
+    self.ChromedriverPath = "C:\Server_gnu\chromedriver" #크롬드라이버가 설치된 위치를 입력해주세요
   def crawler(self, Homepage_url ,searchValue):
-    driver = webdriver.Chrome("C:\Server_gnu\chromedriver")
+    driver = webdriver.Chrome(self.ChromedriverPath)
     driver.get(Homepage_url) #홈페이지 접속
     select = Select(driver.find_element_by_name("searchType")) # 검색 목록 : 제목
     select.select_by_visible_text('제목')
@@ -31,7 +31,7 @@ class Crawler :
     driver.find_elements_by_css_selector(".nttInfoBtn")[0].click() #접속
     time.sleep(2)
     self.Posting_Address = driver.current_url #최신 공지사항 주소 저장
-    driver.close() #크롤링 종료
+    driver.quit() #크롤링 종료
 
 class DBupdater :
   def __init__(self):
@@ -66,17 +66,22 @@ class Pushconvert:
     }
     self.client.send_notification(notification_body)
 
+class TimeStoper :
+  def stop():
+    time.sleep(60*60) 
+    
 while (True) :
   actor1 = Actor()
   crawler1 = Crawler()
   dbupdate1 = DBupdater()
+  stoper1 = TimeStoper()
   crawler1.crawler(actor1.Homepage_url[0],actor1.searchValue[0]) #공지사항 탐색기
   dbupdate1.db_update(actor1.Homepage_name[0], actor1.searchValue[0], crawler1.Title, crawler1.number, crawler1.Posting_Address) #DB 업데이트기
   crawler1.crawler(actor1.Homepage_url[0],actor1.searchValue[1]) #공지사항 탐색기
   dbupdate1.db_update(actor1.Homepage_name[0], actor1.searchValue[1], crawler1.Title, crawler1.number, crawler1.Posting_Address) #DB 업데이트기
   crawler1.crawler(actor1.Homepage_url[1],actor1.searchValue[2]) #공지사항 탐색기
   dbupdate1.db_update(actor1.Homepage_name[1], actor1.searchValue[2], crawler1.Title, crawler1.number, crawler1.Posting_Address) #DB 업데이트기
-  time.sleep(30) #타이머 정지기
+  stoper1.stop() #타이머 정지기
   del(actor1)
   del(crawler1)
   del(dbupdate1)
