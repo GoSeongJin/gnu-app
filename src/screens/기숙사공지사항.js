@@ -1,9 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 import React, { useState, useEffect } from 'react';
-import {SafeAreaView, FlatList, Button, Text, View, Linking } from 'react-native';
+import {SafeAreaView, FlatList, Button, View, Linking } from 'react-native';
 import { getDatabase, ref, onValue } from 'firebase/database';
 
 export default function App() {
+  
   const [data, setData] = useState('');
 
   const renderItem = ({item}) => {
@@ -16,7 +17,7 @@ export default function App() {
   
   useEffect(()=>{
     const db = getDatabase();
-    const reference = ref(db, '기숙사공지사항/학생생활관 관생/');
+    const reference = ref(db, '기숙사공지사항/년도 학생생활관 관생/');
     onValue(reference, (snapshot) => {
       const tmp = []; 
       snapshot.forEach((child)=>{

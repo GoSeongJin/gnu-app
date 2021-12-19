@@ -9,6 +9,7 @@ function Separator() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container_Setting: {
     flex: 1,
@@ -29,61 +30,40 @@ const styles = StyleSheet.create({
   },
 });
 
-function On ( isEnabled, tag ) {
+function On_1 ( isEnabled ) {
   if(isEnabled==true){
-    OneSignal.sendTag(tag, "희망");
+    OneSignal.sendTag("수강신청", "희망");
   }
   else{
-    OneSignal.sendTag(tag, "거부");
+    OneSignal.sendTag("수강신청", "거부");
   }
 }
 
-function Twitch_1() {
-  const [isEnabled, setIsEnabled] = useState(false);
-  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
-  return (
-    <><View>
-      <Switch
-        trackColor={{ false: "#767577", true: "#81b0ff" }}
-        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
-        onValueChange={toggleSwitch}
-        onValue={On(isEnabled,"수강신청")}
-        value={isEnabled} />
-        <Text style={styles.title}> {isEnabled ? "켜짐" : "꺼짐"} </Text>
-      </View><StatusBar style="auto" /></>
-  );
+function On_2 ( isEnabled ) {
+  if(isEnabled==true){
+    OneSignal.sendTag("국가장학금", "희망");
+  }
+  else{
+    OneSignal.sendTag("국가장학금", "거부");
+  }
 }
 
-function Twitch_2() {
-  const [isEnabled, setIsEnabled] = useState(false);
-  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
-  return (
-    <><View>
-      <Switch
-        trackColor={{ false: "#767577", true: "#81b0ff" }}
-        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
-        onValueChange={toggleSwitch}
-        onValue={On(isEnabled,"국가장학금")}
-        value={isEnabled} />
-        <Text style={styles.title}>{isEnabled ? "켜짐" : "꺼짐"} </Text>
-      </View><StatusBar style="auto" /></>
-  );
+function On_3 ( isEnabled ) {
+  if(isEnabled==true){
+    OneSignal.sendTag("기숙사", "희망");
+  }
+  else{
+    OneSignal.sendTag("기숙사", "거부");
+  }
 }
 
-function Twitch_3() {
-  const [isEnabled, setIsEnabled] = useState(false);
-  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
-  return (
-    <><View>
-      <Switch
-        trackColor={{ false: "#767577", true: "#81b0ff" }}
-        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
-        onValueChange={toggleSwitch}
-        onValue={On(isEnabled,"기숙사")}
-        value={isEnabled} />
-        <Text style={styles.title}>{isEnabled ? "켜짐" : "꺼짐"} </Text>
-      </View><StatusBar style="auto" /></>
-  );
+function On_4 ( isEnabled ) {
+  if(isEnabled==true){
+    OneSignal.sendTag("네이버", "희망");
+  }
+  else{
+    OneSignal.sendTag("네이버", "거부");
+  }
 }
 
 export const Settings = () => {
@@ -115,6 +95,84 @@ export const Settings = () => {
           </View>
           <Twitch_3></Twitch_3>
         </SafeAreaView>
+        <Separator/>
+        <SafeAreaView style={styles.container_Setting}>
+          <View>
+            <Text style={styles.title}>
+              네이버 공지사항 푸시알림
+            </Text>
+          </View>
+          <Twitch_4></Twitch_4>
+        </SafeAreaView>
         </></>  
     );    
+}
+
+function Twitch_1() {
+  const [isEnabled, setIsEnabled] = useState(false);
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_1(isEnabled)}
+        value={isEnabled} />
+        <Text style={styles.title}> {isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+  );
+}
+
+
+function Twitch_2() {
+  const [isEnabled, setIsEnabled] = useState();
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_2(isEnabled)}
+        value={isEnabled} />
+        <Text style={styles.title}>{isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+  );
+}
+
+function Twitch_3() {
+  const [isEnabled, setIsEnabled] = useState();
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_3(isEnabled)}
+        value={isEnabled} />
+        <Text style={styles.title}>{isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+  );
+}
+
+function Twitch_4() {
+  const [isEnabled, setIsEnabled] = useState();
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+  return (
+    <><View>
+      <Switch
+        trackColor={{ false: "#767577", true: "#81b0ff" }}
+        thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        onValue={On_4(isEnabled)}
+        value={isEnabled} />
+        <Text style={styles.title}>{isEnabled ? "켜짐" : "꺼짐"} </Text>
+      </View><StatusBar style="auto" /></>
+  );
 }

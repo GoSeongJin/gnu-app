@@ -31,6 +31,13 @@ export const Home = ({ navigation }) => {
           />
       </View>
       <Separator />
+      <View>
+        <Button
+            title="네이버 공지사항 리스트"
+            onPress={() => navigation.navigate('네이버공지사항')}
+          />
+      </View>
+      <Separator />
     </SafeAreaView>
     );
   };

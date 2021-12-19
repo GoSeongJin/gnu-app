@@ -1,10 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import {SafeAreaView, FlatList, Button, View, Linking } from 'react-native';
 import { getDatabase, ref, onValue } from 'firebase/database';
 
 export default function App() {
+
   const [data, setData] = useState('');
+  
   const renderItem = ({item}) => {
     return(
       <View style={{padding:15, borderBottomColor:'#aaa', borderBottomWidth: 3}}>

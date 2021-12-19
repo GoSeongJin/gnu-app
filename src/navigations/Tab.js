@@ -2,11 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home } from '../screens/Home';
 import { Settings } from '../screens/Setting';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-
-const TabIcon = ({ name, size, color }) => {
-  return <MaterialCommunityIcons name={name} size={size} color={color} />;
-};
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Tab = createBottomTabNavigator();
 
@@ -14,27 +10,23 @@ const TabNavigation = () => {
   return (
     <Tab.Navigator>
      <Tab.Screen
-        name="공지사항 목록"
+        name="공지사항 리스트"
         component={Home}
         options={{
-          tabBarLabel: '공지사항 목록',
-          tabBarIcon: props =>
-            TabIcon({
-              ...props,
-              name: props.focused ? 'text-box-search' : 'text-box-search-outline',
-            }),
+          tabBarLabel: '공지사항 리스트',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name= "search-web" color={color} size={size} />
+          ),
         }}
       />
       <Tab.Screen
         name="푸시알림 수신"
         component={ Settings }
         options={{
-          tabBarLabel: '알림 수신 설정',
-          tabBarIcon: props =>
-            TabIcon({
-              ...props,
-              name: props.focused ? 'account-cog' : 'account-cog-outline',
-            }),
+          tabBarLabel: '푸시알림 수신',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name= "bell" color={color} size={size} />
+          ),
         }}
       />
     </Tab.Navigator>
