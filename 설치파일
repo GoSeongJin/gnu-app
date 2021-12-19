@@ -1,0 +1,8 @@
+npm install --save @react-navigation/native
+npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+npm install @react-navigation/bottom-tabs
+npm i firebase@9.4.1
+npm install --save-dev babel-plugin-styled-components @types/styled-components @types/styled-components-react-native
+npm install --save react-native-onesignal
+npm i react-native-vector-icons
